@@ -1,0 +1,91 @@
+/* header/navbar  */
+
+.header{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center
+}
+
+.links{
+    margin-top: 25px;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+
+
+li{
+    list-style: none;
+    
+}
+
+/* Info Section */
+
+.intro{
+    border: solid red;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    color: white;
+
+}
+
+.headshot{
+    margin-left: 25px;
+}
+
+.button button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 25px;
+    padding: 15px;
+    width: 100px;
+    height: 10px;
+    
+
+}
+
+
+
+
+
+
+
+
+/* Albums  */
+
+.card1{
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.card2{
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.card3{
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.card4{
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
