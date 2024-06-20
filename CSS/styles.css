@@ -86,9 +86,10 @@ img.headshot{
 
 .button button{
     
-    background-color: #3882f6;
+    background-color: transparent;
     color: white;
     border-radius: 25px;
+    border: solid white;
     padding: 20px;
     padding-top: 5px;
     width: 100px;
