@@ -1,0 +1,1 @@
+This is a landing page the I have created for one of my favorite artist, Satan Dave. The page consists of a section about him and a section with a few of his popular albums. As I further my knoledge in webdevelopment I will be making updates to the site until it fits the full vision I have for it.
