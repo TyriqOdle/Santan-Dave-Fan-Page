@@ -148,7 +148,7 @@ img.albumcover{
 
 .quote{
     background-color: #E5E7EB;
-    background-image: url(./img/Davearmsout.jpeg);
+    background-image: url(../img/Davearmsout.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -163,14 +163,24 @@ img.albumcover{
 .quotetext{
     height: 200px;
     text-align: center; 
-    color: #1f2937;
+    color: white;
     font-size: 30px;
     font-style: italic;
     font-weight: bold;
     border: 10px solid #ccc;
     padding: 50px;
-    -webkit-text-stroke: 1px #ccc;
+    -webkit-text-stroke: 1px black;
+    display: flex;
+    flex-direction: column;
     
+}
+
+.quotetext h2{
+    align-self: flex-end;
+}
+
+.quotetext strong{
+    color: #0971F2;
 }
 
 
