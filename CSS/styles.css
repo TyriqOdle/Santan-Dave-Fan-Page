@@ -1,3 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    font-family: "Roboto", sans-serif;
+}
 body{
     margin: 0;
     padding: 0;
@@ -19,7 +26,16 @@ a{
     justify-content: space-evenly;
     align-items: center;
     
+}
 
+ h1{
+    font-weight: 900;
+    font-style: italic;
+}
+
+.header ul{
+    font-style: italic;
+    font-weight: 400;
 }
 
 .links{
@@ -45,7 +61,19 @@ li{
     align-items: center;
     background-color: #1f2937;
     color: white;
+}
 
+.main-title h1{
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.bio{
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 300;
+    line-height: 22px;
+    
 }
 
 img.headshot{
@@ -65,9 +93,9 @@ img.headshot{
     padding-top: 5px;
     width: 100px;
     height: 10px;
-    
-
 }
+
+
 
 
 /* Albums  */
@@ -96,6 +124,7 @@ img.headshot{
     width: 200px;
     height: 250px;
     text-align: center;
+    border-bottom: 10px solid #ccc;
     
 }
 
@@ -104,6 +133,7 @@ img.albumcover{
     height: auto;
     border-radius: 25px;
 }
+
 
 .albumname{
     font-weight: 900;
@@ -117,23 +147,29 @@ img.albumcover{
 
 .quote{
     background-color: #E5E7EB;
-    height: 300px;
+    background-image: url(/img/Davearmsout.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
     display: flex;
     justify-content: center; 
     align-items: center; 
 }
 
-blockquote {
-    margin: 20px;
-    padding: 20px;
-    border-radius: 50px;
-    background-color: #f9f9f9;
-    border-left: 10px solid #ccc;
-}
+
 
 .quotetext{
     height: 200px;
     text-align: center; 
+    color: #1f2937;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    border: 10px solid #ccc;
+    padding: 50px;
+    -webkit-text-stroke: 1px #ccc;
+    
 }
 
 
@@ -142,8 +178,9 @@ blockquote {
 .tickets{
     height: 300px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    
 }
 
 .ticketinfo{
@@ -151,13 +188,27 @@ blockquote {
     background-color: #3882f6;
     border-radius: 5px;
     width: 850px;
+    height: 100px;
     display: flex;
-    justify-content: space-between  ;
-    
+    flex-direction: column;
+    justify-content: center  ;
+    padding-left: 20px;
 }
 
 .text{
-    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticketinfo .text h1{
+    margin: 0;
+}
+
+
+.ticketinfo .text p{
+    margin: 0;
     margin-bottom: 20;
 }
 
@@ -176,6 +227,7 @@ blockquote {
     border: solid white;
     color: white;
     border-radius: 20px;
+    margin-top: 5px;
 }
 
 .footer{
