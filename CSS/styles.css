@@ -148,7 +148,7 @@ img.albumcover{
 
 .quote{
     background-color: #E5E7EB;
-    background-image: url(/img/Davearmsout.jpeg);
+    background-image: url(./img/Davearmsout.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
