@@ -24,6 +24,7 @@ body{
 .backarrow{
     display: flex; 
     align-items: center;
+    align-self: flex-start;
     padding: 2px;
     width: 30px;
     height: auto;
@@ -33,6 +34,7 @@ body{
     padding-left: 2px;
     padding-right: 2px;
     padding-bottom: 5px;
+    flex-shrink: 0;
 }
 
 .backarrow:hover{
@@ -62,13 +64,6 @@ body{
 }
 .albimage{
     width: auto;
-}
-
-.albimage img:hover{
-    width: 400px;
-    border-radius: 10px;
-    
-    
 }
 
 .albimage img{
@@ -134,22 +129,32 @@ body{
 
 .song{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     width: auto;
     height: 56px;
     margin: 0px;
     padding-left: 10px;
     padding-right: 10px;
-    border-bottom: solid white;
 }
 
 .left{
     display: flex;
     align-items: center;
     gap: 10px;
+    
 }
 
+.song .left{
+    width: 260px;
+}
+
+.middle{
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-shrink: 0;
+}
 .songinfo h1{
     font-size: 20px;
 }
@@ -161,4 +166,9 @@ body{
 .bottom{
     display: flex;
     gap: 5px;
+}
+
+.time{
+    width: 50px;
+    text-align: right;
 }
