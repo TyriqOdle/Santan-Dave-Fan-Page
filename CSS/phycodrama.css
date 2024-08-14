@@ -5,9 +5,36 @@
     font-family: "Roboto", sans-serif;
 }
 
+body{
+    background-color: black;
+}
+
 .container{
     display: flex;
     flex-direction: column;
+}
+
+
+/*styling the topbar */
+
+.backarrow img{
+    width: 25px;
+}
+
+.backarrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    width: 40px;
+    height: auto;
+    border-radius: 500px;
+    background-color: gray;
+}
+.topbar{
+    padding: 10px;
+    background-color: black;
+    height: auto;
 }
 
 /*Styling the header */
