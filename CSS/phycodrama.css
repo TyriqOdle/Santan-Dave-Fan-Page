@@ -10,21 +10,32 @@
     flex-direction: column;
 }
 
+/*Styling the header */
 .header{
     display: flex;
-    height: 30vh;
+    height: auto;
     width: auto;
     padding-top: 50px;
     padding-left: 20px;
+    color: white;
+    background-color: #4287f5
     
     
 }
 .albimage{
-    width: 300px;
+    width: auto;
+}
+
+.albimage img:hover{
+    width: 400px;
+    border-radius: 10px;
+    
+    
 }
 
 .albimage img{
     width: 300px;
+    border-radius: 1000px;
 }
 
 .description{
@@ -57,4 +68,52 @@
 
 .description .info .name{
     font-weight: 800;
+}
+
+/*Styling the Songs */
+
+.songcontainer{
+    height: auto;
+    background-color: black;
+}
+
+.songs{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+
+.song:hover{
+    background-color: grey;
+}
+
+.song{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 56px;
+    margin: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.songinfo h1{
+    font-size: 20px;
+}
+
+.songinfo p{
+    font-size: 15px;
+}
+
+.bottom{
+    display: flex;
+    gap: 5px;
 }
