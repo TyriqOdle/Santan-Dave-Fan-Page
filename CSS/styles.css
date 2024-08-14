@@ -53,10 +53,12 @@ li{
     
 }
 
+
+
 /* Info Section */
 
 .intro{
-    min-height: 250px;
+    height: auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -85,6 +87,14 @@ img.headshot{
     border-radius: 25px;
 }
 
+img.headshot:hover{
+    margin-left: 25px;
+    width: 250px;
+    height: auto;
+    border-radius: 25px;
+    padding-bottom: 10px;
+}
+
 
 .button button{
     
@@ -96,6 +106,10 @@ img.headshot{
     padding-top: 5px;
     width: 100px;
     height: 10px;
+}
+
+.button{
+    padding-bottom: 10px;
 }
 
 
@@ -115,6 +129,7 @@ img.headshot{
 
 
 .cards{
+
     margin: 0;
     padding: 0;
     display: flex;
@@ -128,11 +143,16 @@ img.headshot{
     flex: 1 1 auto; 
     border-radius: 25px;
     padding: 20px;
-    width: 200px;
-    height: 250px;
+    width: auto;
+    height: auto;
     text-align: center;
     border-left: 10px solid #ccc;
     
+}
+
+.card:hover{
+    background-color: gray;
+    border-left: 10px solid black;
 }
 
 img.albumcover{
@@ -254,5 +274,3 @@ img.albumcover{
     display: flex;
     justify-content: center;
 }
-
-
