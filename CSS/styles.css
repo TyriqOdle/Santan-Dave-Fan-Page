@@ -108,6 +108,10 @@ img.headshot:hover{
     height: 10px;
 }
 
+.button button:hover{
+    background-color: gray;
+}
+
 .button{
     padding-bottom: 10px;
 }
