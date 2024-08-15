@@ -29,7 +29,6 @@ body{
     width: 30px;
     height: auto;
     border-radius: 500px;
-    background-color: rgb(41, 41, 41);
     padding-top: 5px;
     padding-left: 2px;
     padding-right: 2px;
@@ -38,7 +37,7 @@ body{
 }
 
 .backarrow:hover{
-    background-color: gray;
+    background-color: white;
 }
 .topbar{
     padding: 10px;
@@ -136,6 +135,18 @@ body{
     margin: 0px;
     padding-left: 10px;
     padding-right: 10px;
+
+}
+
+.desbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: auto;
+    height: 56px;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .left{
@@ -155,6 +166,14 @@ body{
     justify-content: flex-end;
     flex-shrink: 0;
 }
+
+.desbar .middle{
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+    flex-shrink: 0;
+}
+
 .songinfo h1{
     font-size: 20px;
 }
@@ -169,6 +188,6 @@ body{
 }
 
 .time{
-    width: 50px;
+    width: 60px;
     text-align: right;
 }
