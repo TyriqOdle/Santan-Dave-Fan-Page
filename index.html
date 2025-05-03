@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santan Dave Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/styles.css">
+    <script src="./index.js" type="module" defer></script>
 </head>
-<body>
-    <header class="header">
-        <h1 class="title">Santan Dave</h1>
+<body class="bg-dark text-bg-dark">
+    <nav class="nav justify-content-around  m-2  align-items-center">
+        <h1 class="nav-item ">Santan Dave</h1>
+          <a  class="nav-link active text-bg-dark " aria-current="page" href="https://open.spotify.com/artist/6Ip8FS7vWT1uKkJSweANQK?si=uyN8r0iPTNKRRvgdWKZG3Q" target="_blank">Spotify</a>
+          <a class="nav-link active text-bg-dark" aria-current="page" href="https://music.apple.com/us/artist/dave/1093500131" target="_blank">Apple Music</a>
+          <a class="nav-link active text-bg-dark" aria-current="page" href="https://music.youtube.com/channel/UCu8B46V0mU2Wqii6qUatrvw" target="_blank">Youtube Music</a>
+</nav>
 
-        <ul class="links">
-            <li><a href="https://open.spotify.com/artist/6Ip8FS7vWT1uKkJSweANQK?si=uyN8r0iPTNKRRvgdWKZG3Q" target="_blank">Spotify</a></li>
-            <li><a href="https://music.apple.com/us/artist/dave/1093500131" target="_blank">Apple Music</a></li>
-            <li><a href="https://music.youtube.com/channel/UCu8B46V0mU2Wqii6qUatrvw" target="_blank">Youtube Music</a></li>
+    
 
-        </ul>
-    </header>
-
-    <div class="intro">
-        <div class="introtext">
-           <div class="main-title"> <h1>Santan Dave</h1></div>
-            <div class="description">
+    <div class="container intro ">
+        <div class="container introtext">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="description col">
+              <h1 class="display-1">Santan Dave</h1>
                 <p class="bio"><strong> Name:</strong> David Orobosa Omoregie<br>
                     <strong> Name:</strong> Santan Dave (also known simply as Dave)<br>
                     <strong>Date of Birth:</strong> June 5, 1998<br>
@@ -29,78 +30,37 @@
                     <strong>Occupation:</strong> Rapper, Singer, Songwriter, Record Producer<br>
                     <strong>Genres:</strong> British Hip Hop, Grime, Conscious Hip Hop</p>
                 <div class="button">
-                    <a href="https://en.wikipedia.org/wiki/Dave_(rapper)" target="_blank"><button>More</button></a>
+                    <a class="btn btn-primary" href="https://en.wikipedia.org/wiki/Dave_(rapper)" target="_blank">More</a>
                 </div>
             </div>
-        </div>
-        <div class="photo"><img class="headshot" src="./img/daveheadshot.jpeg" alt="Santan Dave"></div>
+              <div class="photo col"><img class="img-thumbnail headshot" src="./img/daveheadshot.jpeg" style="width: 300px;" alt="Santan Dave"></div>
+          </div>
             
-
+        </div>
     </div>
-        <div class="Albums">
-            <div class="title">
-                <h1>Popular Albums</h1>
-            </div>
+      
+      <div class="container text-center " >
+          <h1 class="p-5">Albums</h1>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4" id="albums">
 
-            <div class="cards">
-
-                <div class="card" id="card1">
-                    
-                    <img class="albumcover" src="./img/Album Covers/c7b690bc57d610eb6bdc0c0ce8bc856a.1000x1000x1.png">
-                    <p class="albumname">Six Paths</p>
-                </div>
-
-                <div class="card" id="card2">
-                    <img class="albumcover" src="./img/Album Covers/Dave_and_Central_Cee_-_Sprinter.png">
-                    <p class="albumname">Split Decision</p>
-                </div>
-
-                <div class="card" id="card3">
-                    <a href="./Album pages/pyscodrama.html"><img class="albumcover" src="./img/Album Covers/Dave_Psychodrama.jpeg" ></a>
-                    <p class="albumname">Phycodrama</p>
-                </div>
-
-                <div class="card" id="card4">
-                    <img class="albumcover" src="./img/Album Covers/Game_Over_by_Dave_cover.jpg">
-                    <p class="albumname">Game Over</p>
-                </div>
-
-                <div class="card" id="card5">
-                    <img class="albumcover" src="./img/Album Covers/Dave_-_We're_All_Alone_in_This_Together.jpg">
-                    <p class="albumname">We're All Alone <br>in This Together</p>
-                </div>
-
-            </div>
-
+          <!--Cards for the albums will be loaded here.-->
+          
         </div>
+      </div>
 
-        <div class="quote">
-            <blockquote class="quotetext" cite="Santan Dave">
-                <em>I got nothing for a fed, copper for your head
-                    And that's the definition of a penny for your thoughts</em>
+<div class="quote ">
+  <figure class="text-end border border-primary p-5 rounded" id="songLyrics">
+    <blockquote class="blockquote ">
+        <p> <!--QUote goes here yes sir 100 100--> </p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
 
-                    <h2>- Bar from <strong>Disaster</strong></h2>
-            </blockquote>
-
-
-        </div>
-
-
-        <div class="tickets">
-            <div class="ticketinfo">
-                <div class="text">
-                    <h1>Get your rickets today</h1>
-                    <p>Get your tickets to Dave's shows in the UK today!</p>
-                </div>
-            
-                <div class="gettickets">
-                    <button class="ticketsget button">Get Tickets</button>
-                </div>
-            </div>
-        </div>
+    </figcaption>
+  </figure>
+</div>
 
 
-    <footer class="footer">
+    <footer class="footer text-bg-dark">
         <div class="disclaimer">
             <p>All rights reserved. © 2024 Santan Dave.</p>
 
@@ -109,6 +69,6 @@
     </footer>
 
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
