@@ -4,34 +4,34 @@
     "number_of_songs": 6,
     "year_of_release": 2016,
     "top_song": "Picture Me",
-    "image": "./img/Album Covers/six-paths.png"
+    "image": "./img/album-covers/six-paths.png"
   },
   {
     "name": "Game Over",
     "number_of_songs": 7,
     "year_of_release": 2017,
     "top_song": "No Words",
-    "image": "./img/Album Covers/game-over.jpg"
+    "image": "./img/album-covers/game-over.jpg"
   },
   {
     "name": "Psychodrama",
     "number_of_songs": 11,
     "year_of_release": 2019,
     "top_song": "Location",
-    "image": "./img/Album Covers/psychodrama.jpeg"
+    "image": "./img/album-covers/psychodrama.jpeg"
   },
   {
     "name": "We're All Alone in This Together",
     "number_of_songs": 12,
     "year_of_release": 2021,
     "top_song": "Clash",
-    "image": "./img/Album Covers/we-are-all-alone.jpg"
+    "image": "./img/album-covers/we-are-all-alone.jpg"
   },
   {
     "name": "Split Decision",
     "number_of_songs": 4,
     "year_of_release": 2023,
     "top_song": "Sprinter",
-    "image": "./img/Album Covers/split-decision.png"
+    "image": "./img/album-covers/split-decision.png"
   }
 ]
