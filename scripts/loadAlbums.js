@@ -25,7 +25,7 @@ export async function loadAlbums(){
             img.src = element.image
 
                 //Adding Classes
-                col.classList.add("col")
+                col.classList.add("col","d-flex", "justify-content-center")
 
                 card.classList.add("card", "text-bg-dark")
                 card.style.width ="16rem"

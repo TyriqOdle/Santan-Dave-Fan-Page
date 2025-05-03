@@ -42,6 +42,8 @@ body{
 }
 
 
+
+
 /* Quote  */
 
 .quote{
@@ -53,8 +55,13 @@ body{
 }
 
 figure{
+    min-width: 200px;
     box-shadow: 0 30px 24px rgba(0, 0, 0, 0.4);
-    
+    transition: var(--transition);
+}
+
+figure:hover{
+    transform: scale(1.1);
 }
 
 
