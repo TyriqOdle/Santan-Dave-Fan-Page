@@ -95,3 +95,45 @@ figure:hover{
     display: flex;
     justify-content: center;
 }
+
+
+
+@media (max-width: 992px) {
+    .quote{
+        height: 100%;
+        padding: 0;
+    }
+    .quotetext h2{
+        font-size: 20px;
+    }
+    .blockquote-footer{
+        font-size: 15px;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:643px ){
+    .quote{
+        width: 40px;
+    }
+    .blockquote{
+        font-size: 15px;
+    }
+    .quotetext p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width:375px ){
+    .quote{
+        width: 20px;
+    }
+    .blockquote{
+        font-size: 15px;
+    }
+    .quotetext p{
+        font-size: 10px;
+    }
+}
