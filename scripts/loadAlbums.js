@@ -33,7 +33,9 @@ export async function loadAlbums(){
                 img.classList.add("card-img-top", "albumcover")
 
                 cardBody.classList.add("card-body")
-                viewBtn.classList.add("btn", "btn-outline")
+                viewBtn.classList.add("btn", "btn-outline-primary")
+                viewBtn.textContent = "View Album"
+                viewBtn.href = element.page;
 
             cardBody.innerHTML = `<h5 class="card-title albumname">${element.name}</h5>
                 <p class="card-text">${element.number_of_songs} Songs ⋅ ${element.year_of_release

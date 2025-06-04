@@ -1,0 +1,12 @@
+#hero{
+    background: linear-gradient(to right, black 0%, black 40%, #007bff 100%);
+}
+.song-row{
+    transition: all 0.3s ease;
+}
+
+.song-row:hover{
+    background-color: #495057
+;
+    
+}
